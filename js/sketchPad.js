@@ -13,7 +13,7 @@ class SketchPad{
          container.appendChild(lineBreak);
 
          this.undoBtn=document.createElement("button");
-         this.undoBtn.innerHTML="UNDO";
+         this.undoBtn.innerHTML="BORRAR";
          container.appendChild(this.undoBtn);
 
          this.ctx=this.canvas.getContext("2d");
