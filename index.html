@@ -29,7 +29,7 @@
         
         <script>
             let index=0;
-            const labels=["Nube","Corazón","Manzana", "Arbol", "Casa"];
+            const labels=["Nube","Corazón","Manzana", "Arbol", "Casa",];
             const data={
                 student:null,
                 session:new Date().getTime(),
@@ -51,7 +51,7 @@
                 sketchPadContainer.style.visibility="visible";
                 const label=labels[index];
                 instructions.innerHTML="Por favor dibuja: "+label;
-                advanceBtn.innerHTML="NEXT";
+                advanceBtn.innerHTML="SIGUIENTE";
                 advanceBtn.onclick=next;
             }
 
