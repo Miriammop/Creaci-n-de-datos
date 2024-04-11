@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width,
-            maximum-scale=0.9,user-scalable=0">
+            maximum-scale=0.9, user-scalable=0">
         <meta charset="UTF-8">
         <title> CREADOR DE DATOS </title>
         <link rel="stylesheet" href="styles.css"/>
@@ -51,7 +51,7 @@
                 sketchPadContainer.style.visibility="visible";
                 const label=labels[index];
                 instructions.innerHTML="Por favor dibuja: "+label;
-                advanceBtn.innerHTML="SIGUIENTE";
+                advanceBtn.innerHTML="NEXT";
                 advanceBtn.onclick=next;
             }
 
@@ -72,7 +72,7 @@
 
              }else{
                 sketchPadContainer.style.visibility="hidden";
-                instructions.innerHTML="Muchas gracias por tu apoyo, por favor sube el archivo que se acaba de descargar en tu dispositivo al formulario para alimentar nuestra base de datos";
+                instructions.innerHTML="Gracias"
                 advanceBtn.innerHTML="Guardar";
                 advanceBtn.onclick=save;
              }
@@ -82,7 +82,7 @@
 
         function save(){
             advanceBtn.style.display='none';
-            instructions.innerHTML=Por favor sube el archivo que acabas de descargar, al siguiente `<a href="https://docs.google.com/forms/d/e/1FAIpQLScfUbNEcVQL51RTwhAYhbsqmuwTe_rvLgu4sbYd9XqScNzYow/viewform">FORMULARIO </a>`;
+            instructions.innerHTML= "¡Tome su archivo descargado y colóquelo junto a los demás en el conjunto de datos!";
 
             const element=document.createElement('a');
             element.setAttribute('href',
