@@ -72,7 +72,7 @@
 
              }else{
                 sketchPadContainer.style.visibility="hidden";
-                instructions.innerHTML="Muchas gracias por tu apoyo, por favor sube el archivo que se acaba de descargar en tu dispositivo al formulario para alimentar nuestra base de datos";
+                instructions.innerHTML="Muchas gracias por tu apoyo! A continuación, al dar clic en el botón se decargará un archivo con extensión JSON a tu dispositivo.";
                 advanceBtn.innerHTML="Guardar";
                 advanceBtn.onclick=save;
              }
@@ -82,7 +82,7 @@
 
         function save(){
             advanceBtn.style.display='none';
-            instructions.innerHTML= "Por favor sube el archivo que acabas de descargar";
+            instructions.innerHTML= "Por favor sube el archivo que acabas de descargar al siguiente " + '<a href='#'>FORMULARIO</a>';
 
 
             const element=document.createElement('a');
