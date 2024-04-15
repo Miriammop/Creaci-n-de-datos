@@ -15,7 +15,7 @@
                     placeholder="Escribe tu nombre"/>
 
                 <span id="instructions"> </span>
-                <button id="advanceBtn" onClick="start();">
+                <button id="advanceBtn" onclick="start()">
                     COMIENZA
                  </button>
             </div>
@@ -82,7 +82,7 @@
 
         function save(){
             advanceBtn.style.display='none';
-            instructions.innerHTML= "Por favor sube el archivo que acabas de descargar al siguiente " + '<a href='#'>FORMULARIO</a>';
+            instructions.innerHTML= "Por favor sube el archivo que acabas de descargar al siguiente <a href='#'>FORMULARIO</a>";
 
 
             const element=document.createElement('a');
